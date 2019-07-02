@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
 
-import { primary, white, light, mq } from "../utilities";
-
+import { primary, white, mq } from "../utilities";
 import TypeAImage from "../images/home-type-a.png";
 import TypeBImage from "../images/home-type-b.png";
 
@@ -54,7 +53,6 @@ const ProductTypes = React.forwardRef((props, ref) => {
           )}
           <img src={TypeBImage} alt="Oak" />
         </Content>
-        <Divider typeA={typeA} />
       </ContentWrapper>
     </Wrapper>
   );
@@ -77,9 +75,7 @@ const ContentWrapper = styled.div`
   align-items: center;
   justify-items: center;
   grid-gap: 2em;
-
   ${mq[1]} {
-    position: relative;
     grid-auto-rows: 1fr;
     grid-gap: 2em;
     grid-template-columns: 1fr 1fr;
@@ -99,20 +95,6 @@ const Content = styled.div`
     max-width: 100%;
     grid-column: 1;
     grid-row: 1;
-  }
-`;
-
-const Divider = styled.span`
-  display: none;
-  ${mq[1]} {
-    display: black;
-    position: absolute;
-    height: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-    pointer-events: none;
-    width: 2px;
-    background: ${light};
   }
 `;
 

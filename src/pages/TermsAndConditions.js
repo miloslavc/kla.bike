@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "@emotion/styled";
 
 import Footer from "../layouts/Footer";
@@ -6,6 +6,11 @@ import Footer from "../layouts/Footer";
 import { PageTitle } from "../elements";
 
 function TermsAndConditions() {
+  //reach router bugfix
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <PageTitle>Terms And Conditions</PageTitle>
@@ -266,8 +271,6 @@ function TermsAndConditions() {
           loss or damage of any nature.
         </p>
         <h2>Terms and Conditions</h2>
-        <p />
-        <h2>Credit & Contact Information</h2>
       </Wrapper>
       <Footer />
     </>

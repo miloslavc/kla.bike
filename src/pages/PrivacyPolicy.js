@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import styled from "@emotion/styled";
 
@@ -7,6 +7,10 @@ import Footer from "../layouts/Footer";
 import { PageTitle } from "../elements";
 
 function PrivacyPolicy() {
+  //reach router bugfix
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <PageTitle>Privacy Policy</PageTitle>
@@ -15,12 +19,7 @@ function PrivacyPolicy() {
         <h3>Your privacy is critically important to us.</h3>
         Kla Wooden Handlebars is located at:
         <br />
-        <address>
-          Kla Wooden Handlebars
-          <br />
-          <br />
-          000{" "}
-        </address>
+        <address>Kla Wooden Handlebars</address>
         <p>
           It is Kla Wooden Handlebars's policy to respect your privacy regarding
           any information we may collect while operating our website. This
@@ -161,10 +160,7 @@ function PrivacyPolicy() {
           Privacy Policy will constitute your acceptance of such change.
         </p>
         <h2>Privacy Policy</h2>
-        <p />
-        <h2>Credit & Contact Information</h2>
         <p>
-          {" "}
           If you have any questions about this Privacy Policy, please contact us
           via <a href="mailto:conatct@kla.bike">email</a>.
         </p>

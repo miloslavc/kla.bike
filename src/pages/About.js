@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "@emotion/styled";
 import { Link } from "@reach/router";
 
@@ -12,6 +12,11 @@ import { darktext, mq } from "../utilities";
 import { SecondaryButtonNav, H3, P } from "../elements";
 
 function About() {
+  //reach router bugfix
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Wrapper>

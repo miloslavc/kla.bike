@@ -1,4 +1,4 @@
-import React, { createRef } from "react";
+import React, { createRef, useEffect } from "react";
 //components
 import Hero from "../components/Hero";
 import ProductTypes from "../components/ProductTypes";
@@ -17,6 +17,11 @@ function Home() {
       behavior: "smooth",
       block: "start"
     });
+
+  //reach router bugfix
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <main>

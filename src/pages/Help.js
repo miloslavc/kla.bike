@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "@emotion/styled";
 import { Link } from "@reach/router";
 
@@ -9,6 +9,11 @@ import { SecondaryButtonNav, P, H3 } from "../elements";
 import Email from "../assets/icons/email.svg";
 
 function Help() {
+  //reach router bugfix
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Wrapper>

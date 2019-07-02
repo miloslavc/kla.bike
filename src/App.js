@@ -10,6 +10,7 @@ import Order from "./pages/Order";
 import Cart from "./pages/Cart";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import NotFound from "./pages/NotFound";
 
 //data
 import { products } from "./api";
@@ -48,12 +49,13 @@ function App() {
       <Header />
       <Router primary={false}>
         <Home path="/" />
-        <About path="/about" />
-        <Help path="/help" />
-        <Order path="/order" />
-        <Cart path="/checkout" />
-        <PrivacyPolicy path="/privacy-policy" />
-        <TermsAndConditions path="/terms-and-conditions" />
+        <About path="about" />
+        <Help path="help" />
+        <Order path="order" />
+        <Cart path="checkout" />
+        <PrivacyPolicy path="privacy-policy" />
+        <TermsAndConditions path="terms-and-conditions" />
+        <NotFound default />
       </Router>
     </CartContext.Provider>
   );
