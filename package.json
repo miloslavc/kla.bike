@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/core": "^10.0.10",
+    "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.12",
     "@reach/router": "^1.2.1",
     "netlify-lambda": "^1.4.13",
