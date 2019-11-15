@@ -6683,11 +6683,6 @@ lodash._reinterpolate@^3.0.0:
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
 
-lodash.isplainobject@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
-  integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
-
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -10027,15 +10022,12 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-stripe@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-7.3.0.tgz#8ebbc91cdca2b1517ede1473b4feb3fa53086454"
-  integrity sha512-7uDijNTyeImUWG/46RqnMNnbdB2KjKwhJX0LOCPVehhAL1fhLx2fRbtsHsKFnM/efG0kWGWRJWYDODcxMWg9Fw==
+stripe@^7.13.0:
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-7.13.0.tgz#82f9730a1a956ec93323f510b823578dbfbe8451"
+  integrity sha512-txnnBWAcwIsQ4/P3gYp74C0O9hONDVjKBlPTSG4GheDTZ0V5rkpoFYbuv4g8LvmrPMCZmz3chZ/nunnrTli4Iw==
   dependencies:
-    lodash.isplainobject "^4.0.6"
     qs "^6.6.0"
-    safe-buffer "^5.1.1"
-    uuid "^3.3.2"
 
 style-loader@1.0.0:
   version "1.0.0"
