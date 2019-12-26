@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.27",
-    "@emotion/styled": "^10.0.23",
+    "@emotion/styled": "^10.0.27",
     "@reach/router": "^1.2.1",
     "netlify-lambda": "^1.6.3",
     "react": "^16.12.0",
