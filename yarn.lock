@@ -11377,10 +11377,10 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-stripe@^8.49.0:
-  version "8.49.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.49.0.tgz#921027e93987165c41afc86aa45b6d871c83e3cd"
-  integrity sha512-g1JNRsJBCvU3/vhlRJ8sKrC2NkfJ2H1tty8tIOGqF3QTQX/c3lh59Ckj9xmXZtLnQnSWT6iMhkB035Srla6+rw==
+stripe@^8.62.0:
+  version "8.62.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.62.0.tgz#b1c811aab9a4cb4d00134f7c89725e99fd3e6265"
+  integrity sha512-pfhDDI94ZxcWRjQH8/g7ThoX0U26gQGhioV+a5vfKPwCljzUNxJHzBqQs9s1XNm9lmIaE5qydzrwcgF52okdEw==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.6.0"
