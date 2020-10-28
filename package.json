@@ -11,7 +11,7 @@
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.3",
     "react-stripe-elements": "^6.1.2",
-    "stripe": "^8.114.0"
+    "stripe": "^8.119.0"
   },
   "scripts": {
     "start": "react-scripts start",
