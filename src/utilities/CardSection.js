@@ -1,5 +1,5 @@
-import { css } from "@emotion/core";
-import { white, darkgray } from "./Colors";
+import { css } from '@emotion/react';
+import { white, darkgray } from './Colors';
 
 export const CardSection = css`
   background: ${white};

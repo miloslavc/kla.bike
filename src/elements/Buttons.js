@@ -1,6 +1,6 @@
-import styled from "@emotion/styled";
-import { css } from "@emotion/core";
-import { primary, white, darktext } from "../utilities";
+import styled from '@emotion/styled';
+import { css } from '@emotion/react';
+import { primary, white, darktext } from '../utilities';
 
 export const PrimaryButton = styled.div`
   background: ${primary};

@@ -1,8 +1,8 @@
-import { css } from "@emotion/core";
-import { darkgray } from "./Colors";
+import { css } from '@emotion/react';
+import { darkgray } from './Colors';
 
 export const RoundBorder = css`
-  content: "";
+  content: '';
   position: absolute;
   height: 60px;
   width: 60px;
